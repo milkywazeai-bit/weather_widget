@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">날씨 예보 비교</string>
+    <string name="widget_name">날씨 예보 비교</string>
+    <string name="widget_description">기상청·ECMWF·GFS 등 주요 예보 모델을 한눈에 비교합니다</string>
+
+    <string name="refresh">새로고침</string>
+    <string name="day_today">오늘</string>
+    <string name="day_tomorrow">내일</string>
+    <string name="day_after_tomorrow">모레</string>
+
+    <string name="col_model">모델</string>
+    <string name="col_weather">날씨</string>
+    <string name="col_current">현재</string>
+    <string name="col_high_low">최고/최저</string>
+    <string name="col_precip">강수</string>
+
+    <string name="widget_loading">예보를 불러오는 중…</string>
+    <string name="widget_refreshing">갱신 중…</string>
+    <string name="widget_updated">%1$s 업데이트</string>
+    <string name="widget_stale">%1$s 기준 (갱신 실패)</string>
+    <string name="widget_error">예보를 가져오지 못했습니다\n%1$s\n↻ 를 눌러 다시 시도하세요</string>
+    <string name="widget_no_models">비교할 모델을 하나 이상 선택하세요</string>
+    <string name="widget_no_data">데이터 없음</string>
+
+    <string name="consensus_avg">평균 %1$s / %2$s</string>
+    <string name="consensus_spread">최고기온 편차 %1$d°</string>
+    <string name="consensus_rain">비 예보 %1$d/%2$d</string>
+
+    <string name="settings_location_title">위치</string>
+    <string name="current_location">%1$s\n(%2$.3f, %3$.3f)</string>
+    <string name="search_hint">도시 이름 (예: 부산, Tokyo)</string>
+    <string name="search">검색</string>
+    <string name="use_device_location">현재 위치 사용</string>
+    <string name="settings_models_title">비교할 예보 모델</string>
+    <string name="model_checkbox">%1$s — %2$s</string>
+    <string name="done">저장하고 새로고침</string>
+    <string name="data_source">데이터: Open-Meteo.com (CC BY 4.0). 1시간마다 자동 갱신됩니다.</string>
+
+    <string name="search_no_results">검색 결과가 없습니다</string>
+    <string name="search_failed">검색에 실패했습니다. 네트워크를 확인하세요.</string>
+    <string name="location_permission_denied">위치 권한이 거부되었습니다</string>
+    <string name="location_unavailable">현재 위치를 확인할 수 없습니다</string>
+    <string name="location_finding">현재 위치를 찾는 중…</string>
+</resources>

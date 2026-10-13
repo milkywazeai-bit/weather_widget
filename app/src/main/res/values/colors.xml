@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_bg">#F2FFFFFF</color>
+    <color name="widget_text">#1B1F24</color>
+    <color name="widget_text_secondary">#66707A</color>
+    <color name="widget_divider">#1F000000</color>
+    <color name="widget_accent">#1E66D0</color>
+    <color name="widget_chip">#1A1E66D0</color>
+    <color name="temp_high">#D9480F</color>
+    <color name="temp_low">#1971C2</color>
+    <color name="precip">#0C8599</color>
+    <color name="icon_tint">#55606B</color>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="22dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/model_name"
+        style="@style/WidgetCell"
+        android:layout_width="0dp"
+        android:layout_weight="1.3"
+        android:gravity="start"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/icon"
+        style="@style/WidgetCell"
+        android:layout_width="0dp"
+        android:layout_weight="0.8" />
+
+    <TextView
+        android:id="@+id/current"
+        style="@style/WidgetCell"
+        android:layout_width="0dp"
+        android:layout_weight="0.9" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.8"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/high"
+            style="@style/WidgetCell"
+            android:layout_width="wrap_content"
+            android:textColor="@color/temp_high" />
+
+        <TextView
+            style="@style/WidgetCell"
+            android:layout_width="wrap_content"
+            android:text=" / "
+            android:textColor="@color/widget_text_secondary" />
+
+        <TextView
+            android:id="@+id/low"
+            style="@style/WidgetCell"
+            android:layout_width="wrap_content"
+            android:textColor="@color/temp_low" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/precip"
+        style="@style/WidgetCell"
+        android:layout_width="0dp"
+        android:layout_weight="1.6"
+        android:gravity="end"
+        android:textColor="@color/precip" />
+</LinearLayout>
